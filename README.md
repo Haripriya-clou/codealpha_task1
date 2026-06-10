@@ -1,4 +1,4 @@
-<img width="811" height="513" alt="Screenshot 2026-06-10 113038" src="https://github.com/user-attachments/assets/c05d3952-d1e2-45ee-851b-dd3b1cb48d3c" />﻿# Age Calculator Pro 🕰️
+## Age Calculator Pro 🕰️
 
 A complete full-stack Age Calculator web application with a modern, professional UI featuring glassmorphism and dark/light mode functionality.
 
@@ -106,6 +106,13 @@ Calculates age based on the provided date of birth.
   "error": "Date of birth cannot be in the future"
 }
 ```
+## Screenshot
+<img width="811" height="513" alt="Screenshot 2026-06-10 113038" src="https://github.com/user-attachments/assets/de719c55-a913-444d-986d-093f79d72d38" />
+Home loanding page of the website
+
+<img width="792" height="766" alt="Screenshot 2026-06-10 112851" src="https://github.com/user-attachments/assets/9f85be6c-fec7-4ebb-8ca9-95733aacc6c5" />
+Output calculated - this is website output which shows the years months and days with details
+
 
 ## Future Enhancements 🔮
 

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator Pro</title>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <div class="background-shapes">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+    </div>
+
+    <div class="container glass-panel">
+        <div class="header">
+            <h1><i class="fa-solid fa-calculator"></i> Age Calculator</h1>
+            <button id="theme-toggle" class="theme-toggle" aria-label="Toggle Theme">
+                <i class="fa-solid fa-moon"></i>
+            </button>
+        </div>
+
+        <div class="input-section">
+            <label for="dob">Enter your Date of Birth</label>
+            <div class="input-group">
+                <i class="fa-regular fa-calendar input-icon"></i>
+                <input type="date" id="dob" name="dob" max="">
+            </div>
+            <div id="error-message" class="error-message hidden">
+                <i class="fa-solid fa-circle-exclamation"></i>
+                <span id="error-text"></span>
+            </div>
+        </div>
+
+        <button id="calculate-btn" class="calculate-btn">
+            <span class="btn-text">Calculate Exact Age</span>
+            <span class="loader hidden"><i class="fa-solid fa-spinner fa-spin"></i></span>
+        </button>
+
+        <div id="result-section" class="result-section hidden">
+            <h2>You are exactly:</h2>
+            <div class="results-grid">
+                <div class="result-card">
+                    <span class="number" id="result-years">0</span>
+                    <span class="label">Years</span>
+                </div>
+                <div class="result-card">
+                    <span class="number" id="result-months">0</span>
+                    <span class="label">Months</span>
+                </div>
+                <div class="result-card">
+                    <span class="number" id="result-days">0</span>
+                    <span class="label">Days</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Script -->
+    <script src="./js/script.js"></script>
+</body>
+</html>
